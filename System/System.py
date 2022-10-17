@@ -1,7 +1,8 @@
 from User import *
 
 class System(User):
-    def __init__(self):
+    def __init__(self, nome = None, password = None, userId = None):
+        super().__init__(nome, password, userId)
         self.clientes = []
 
     def addPaciente(self, cliente):

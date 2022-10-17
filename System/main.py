@@ -29,7 +29,8 @@ def menuInicial(sistema):
         p = User()
         p = p.criarConta()
         sistema.addPaciente(p)
-        menuPaciente(sistema)
+        print('\n< Conta Criada! >')
+        menuInicial(sistema)
     elif op == 3:
         sistema.recuperarConta()
     else:
