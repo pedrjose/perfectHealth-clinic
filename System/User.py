@@ -1,6 +1,6 @@
 import random
 from Consulta import *
-
+#2
 class User:
     def __init__(self, nome = None, password = None, userId = None):
         self.nome = nome

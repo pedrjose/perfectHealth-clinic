@@ -1,5 +1,5 @@
 from User import *
-
+#3
 class System(User):
     def __init__(self, nome = None, password = None, userId = None):
         super().__init__(nome, password, userId)

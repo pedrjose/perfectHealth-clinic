@@ -1,6 +1,6 @@
 from System import *
 from User import *
-
+#4
 def menuPaciente(sistema):
     print('\n| PAINEL DO PACIENTE |')
     print('1 - Visualizar Consultas;\n2 - Agendar Consulta;\n3 - Sair.')

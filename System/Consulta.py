@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-
+#1
 class Consulta:
     def __init__(self, data = None, horario = None, sintomas = None, medico = None):
         self.data = data
