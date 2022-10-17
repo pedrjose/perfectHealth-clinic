@@ -18,7 +18,7 @@ def menuPaciente(sistema):
 
 def menuInicial(sistema):
     print('\n| CLÍNICA SAÚDE PERFEITA |')
-    print('1 - Fazer Login;\n2 - Criar Conta;\n3 - Recuperar Senha.')
+    print('1 - Fazer Login;\n2 - Criar Conta;\n3 - Recuperar Senha;\n4 - Fechar Sistema.')
     op = int(input('\nInforme o que deseja fazer: '))
     if op == 1:
         if sistema.fazerLogin():
@@ -33,6 +33,8 @@ def menuInicial(sistema):
         menuInicial(sistema)
     elif op == 3:
         sistema.recuperarConta()
+    elif op == 4:
+        print('Fechando sistema. Obrigado por contatar a Clínica Saúde Perfeita!')
     else:
         print('Algo deu errado. Tente novamente!')
         menuInicial(sistema)
